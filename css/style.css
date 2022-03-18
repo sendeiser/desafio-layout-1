@@ -71,7 +71,7 @@ header .header__container
 main
 {
     display: grid;
-    grid-template-columns:30% repeat(auto-fit,minmax(150px,1fr));
+    grid-template-columns:15% repeat(auto-fit,minmax(150px,1fr));
     height: auto;
 }
 main aside
@@ -90,6 +90,51 @@ main .main__container
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center;
+}
+
+main .main__container .main__body__container
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+main .main__container .main__body__container .main__text__container
+{
+    text-align:center;
+    color: rgb(8, 0, 97);
+    
+}
+main .main__container .main__body__container .main__text__container h2
+{
+    font-size: 4rem;
+    font-weight: bold;
+    text-decoration:underline;
+    text-shadow: 1px 1px 10px rgb(197, 241, 1);
+}
+main .main__container .main__body__container .main__text__container p
+{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: #000;  
+    color: rgb(147, 251, 62);
+    border-radius: 20px; 
+}
+.main__body__container .contenedor_img
+{
+    height: auto;
+    width: 100%;
+    margin-top: 10rem;
+    
+}
+.main__body__container .contenedor_img img
+{
+    display:block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border: 5px solid #000;
+    box-shadow: -1px -1px 10px rgb(0, 0, 0);
 }
 
 main aside .container__asside

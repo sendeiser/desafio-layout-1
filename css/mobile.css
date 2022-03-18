@@ -30,8 +30,14 @@ main
     display:flex;
     flex-direction: column;
 }
-
-
+.main__body__container .contenedor_img
+{
+    margin-top: 5rem;
+}
+main aside
+{
+    order:2;
+}
 main aside .container__asside .cont-assi
 {
     display:flex;
