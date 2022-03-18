@@ -122,19 +122,23 @@ main .main__container .main__body__container .main__text__container p
 }
 .main__body__container .contenedor_img
 {
-    height: auto;
-    width: 100%;
+    width: 90%;
+    height: 100%;
     margin-top: 10rem;
-    
+    align-self: center;
+
 }
-.main__body__container .contenedor_img img
+.main__body__container .contenedor_img .img
 {
     display:block;
-    width: 90%;
-    height: auto;
+    width: 100%;
+    height:60vw;
+    min-height: 280px;
+    max-height:500px;
     margin: 0 auto;
     border: 5px solid #000;
     box-shadow: -1px -1px 10px rgb(0, 0, 0);
+    background:  url('../img/akshan.jpg') center/100% 100% no-repeat;;
 }
 
 main aside .container__asside
