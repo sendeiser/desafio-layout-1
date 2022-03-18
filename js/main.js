@@ -7,7 +7,7 @@
       
     })
     const ultima= getComputedStyle(imagenes[0]).backgroundImage;
-    galery.src="."+ultima.substr(26,15);
+    galery.src="."+ultima.substr(49,15);
     
     console.log(ultima.substr(50,15));
 }
