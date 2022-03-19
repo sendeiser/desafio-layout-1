@@ -13,7 +13,7 @@ header
 {
     width: 100%;
     height:auto;
-    background:linear-gradient(360deg,#180A0A,#646464,#180A0A);
+    background:#0F0E0E;
 }
 header .header__container
 {
@@ -48,36 +48,41 @@ header .header__container
     list-style-type: none;
     font-size: 2rem;
     font-weight: bold;
+    display: flex;
+    justify-content:center;
 }
 .header__container .nav__container .cont-nav ul li
 {
-    display: inline-block;
-    background:linear-gradient(360deg, rgb(68, 209, 174),rgb(103, 78, 247),rgb(24, 216, 143));
+    display: block;
+    background:#1C0A00;
     padding:1rem;
-    border-radius: 15px;
     border: 1px solid #fff;
     margin: 2px 5px;
-}
-.header__container .nav__container ul li:hover
-{
-    background:linear-gradient(360deg, rgb(115, 138, 202),rgb(52, 110, 236),rgb(101, 136, 201));   
 }
 .nav__container a
 {
     text-decoration: none;
-    color:rgb(20, 21, 102);
-    text-shadow: 1px 1px 3px #fff;
+    color:#CC9544;
+    text-shadow: 1px 1px 10px #632626 ;
+}
+.header__container .nav__container ul li:hover
+{
+    background:#541212;
+}
+.nav__container a:hover
+{
+    color:#E3CAA5;  
 }
 main
 {
     display: grid;
-    grid-template-columns:15% repeat(auto-fit,minmax(150px,1fr));
+    grid-template-columns:20% repeat(auto-fit,minmax(250px,1fr));
     height: auto;
 }
 main aside
 {
  grid-column: span 1;
- background-color:#05595B;
+ background-color:#495371;
  height: 100%;
 }
 
@@ -102,7 +107,8 @@ main .main__container .main__body__container .main__text__container
 {
     text-align:center;
     color: rgb(8, 0, 97);
-    
+    width: 70%;
+    margin: 0 auto;
 }
 main .main__container .main__body__container .main__text__container h2
 {
@@ -145,12 +151,12 @@ main aside .container__asside
 {
     display: flex;
     flex-wrap: wrap;
-    background:linear-gradient(90deg,#495371,#74959A);
     justify-content: center;
     border-right: 5px double #000;
 }
 .container__asside .cont-assi
 {
+   
     width:90%;
 }
 .container__asside .cont-assi div
@@ -188,7 +194,7 @@ footer .footer__container
 {
     width:fit-content;
     margin: 0 auto;
-    color: #424107 ;
+    color: #362706 ;
     font-size: 1.5rem;
     padding-top:1rem;
     font-weight: 600;

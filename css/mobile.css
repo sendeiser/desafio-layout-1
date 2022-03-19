@@ -20,6 +20,7 @@ header .header__container
     width: 100%;
     flex-wrap: nowrap;
     align-items: center;
+    
 }
 .header__container .nav__container .cont-nav ul li
 {
@@ -35,16 +36,22 @@ main
 {
     height: 100%;
 }
+main .main__container .main__body__container .main__text__container
+{
+    width: 90%;
+}
 .main__body__container .contenedor_img
 {
     display: flex;
-    margin-top: 1.5rem;
+    margin-top: -4rem;
     align-items: center;
 }
 
 main aside
 {
     order:2;
+    border-top: 2px dotted #000;
+    border-bottom: 2px dotted #000;
 }
 main aside .container__asside .cont-assi
 {
@@ -66,4 +73,11 @@ main aside .container__asside .cont-assi
 main .main__container 
 {
     height:85vh;
+}
+
+@media (max-width:500px) {
+    .header__container .nav__container .cont-nav ul
+    {
+        justify-content:flex-start;
+    }
 }
