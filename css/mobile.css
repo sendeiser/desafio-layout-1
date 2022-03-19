@@ -29,11 +29,19 @@ main
 {
     display:flex;
     flex-direction: column;
+    height: auto;
+}
+.main__body__container
+{
+    height: 100%;
 }
 .main__body__container .contenedor_img
 {
+    display: flex;
     margin-top: 1.5rem;
+    align-items: center;
 }
+
 main aside
 {
     order:2;
@@ -57,5 +65,5 @@ main aside .container__asside .cont-assi
 }
 main .main__container 
 {
-    height:60vh;
+    height:85vh;
 }
